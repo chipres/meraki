@@ -3,8 +3,8 @@ importScripts('js/sw-utils.js');
 
 
 
-const STATIC_CACHE    = 'static-v2';
-const DYNAMIC_CACHE   = 'dynamic-v2';
+const STATIC_CACHE    = 'static-v1';
+const DYNAMIC_CACHE   = 'dynamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
 
@@ -24,7 +24,6 @@ const APP_SHELL = [
     'img/imagenestabla1/Si.jpg',
     'img/imagenestabla1/Sobre-mi.jpg',
     'img/imagenestabla1/Te-quiero.jpg',
-    'img/imagenestabla1/temas-diversos.jpg',
     'img/tabla1Mesiento/Asustada.png',
     'img/tabla1Mesiento/Bien.png',
     'img/tabla1Mesiento/Cansada.png',

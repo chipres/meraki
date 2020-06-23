@@ -1,7 +1,7 @@
 //a
 
 var url = window.location.href;
-var swLocation = '/apli/sw.js';
+var swLocation = '/meraki/sw.js';
 
 
 if ( navigator.serviceWorker ) {

@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+   background: black;
+
+   overscroll-behavior-y: contain;
+   -webkit-user-select: none;
+   -webkit-tap-highlight-color: transparent;
+   -webkit-touch-callout: none;
+    
+} 
+
+main{
+    padding:auto;
+}
+
+.table-responsive {
+	min-height: .01%;
+	width: 100%;
+	height: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0;
+}
+
+.table-responsive > .table > tr > td{
+	white-space: nowrap;
+}
+	
+td{/*********MUY IMPORTANTE*********/
+	width:25%;
+	height:33%;
+	background-size:100% 100%;
+}
+
+.fila-uno{
+		border-top: 20px solid black;
+		border-right: 20px solid black;
+	}
+
+	.fila-uno-derecha{
+		border-top: 20px solid black;
+	}
+
+	.fila-dos, .fila-tres{
+		border-top: 20px solid black;
+		border-right: 20px solid black;
+	}
+
+	.fila-dos-derecha, .fila-tres-derecha{
+		border-top: 20px solid black;
+	}
+
+@media only screen and (min-width: 481px){
+	.table-responsive {
+		width: 100%;
+		height: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0;	
+	}
+
+	.fila-uno{
+		border-top: 20px solid black;
+		border-right: 20px solid black;
+	}
+
+	.fila-uno-derecha{
+		border-top: 20px solid black;
+	}
+
+	.fila-dos, .fila-tres{
+		border-top: 20px solid black;
+		border-right: 20px solid black;
+	}
+
+	.fila-dos-derecha, .fila-tres-derecha{
+		border-top: 20px solid black;
+	}
+}
+
+@media only screen and (min-width: 769px){
+	.table-responsive{
+		width: 100%;
+		height: 100%;
+		margin-bottom: 0;
+		margin-right: 0;
+		margin-left: 0;	
+		overflow-y: hidden;
+		-ms-overflow-style: -ms-autohiding-scrollbar;		
+	}
+
+	.table-responsive > .table > tr > td{
+		white-space: nowrap;
+	}
+}

@@ -8,10 +8,10 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 
 const APP_SHELL = [
-    './',
-    './index.html',
-    './css/estilo.css',
-    './me-siento.html',
+    //'./',
+    'index.html',
+    'css/estilo.css',
+    'me-siento.html',
     'img/favicon.ico',
     
 
@@ -60,7 +60,7 @@ const APP_SHELL = [
     'audio/tabla1mesiento/Triste.mp3',
 
 
-    './js/app.js',
+    'js/app.js',
     'js/sw-utils.js'
 
 

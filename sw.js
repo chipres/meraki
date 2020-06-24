@@ -3,17 +3,18 @@ importScripts('js/sw-utils.js');
 
 
 
-const STATIC_CACHE    = 'static-v3';
+const STATIC_CACHE    = 'static-v4';
 const DYNAMIC_CACHE   = 'dynamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
 
 const APP_SHELL = [
    // '/',
-    'index.html',
+    './index.html',
     'css/estilo.css',
-    'img/favicon.ico',
     'me-siento.html',
+    'img/favicon.ico',
+    
 
     'img/imagenestabla1/Adios.jpg',
     'img/imagenestabla1/Como-estas.jpg',

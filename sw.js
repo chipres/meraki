@@ -3,7 +3,7 @@ importScripts('js/sw-utils.js');
 
 
 
-const STATIC_CACHE    = 'static-v2';
+const STATIC_CACHE    = 'static-v3';
 const DYNAMIC_CACHE   = 'dynamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
@@ -14,7 +14,7 @@ const APP_SHELL = [
     'css/estilo.css',
     'img/favicon.ico',
     'me-siento.html',
-    'js/app.js',
+
     'img/imagenestabla1/Adios.jpg',
     'img/imagenestabla1/Como-estas.jpg',
     'img/imagenestabla1/Gracias.jpg',
@@ -50,11 +50,17 @@ const APP_SHELL = [
     'audio/tab1principal/Sobremi.mp3',
     'audio/tab1principal/Tequiero.mp3',
     'audio/Tematica.mp3',
+    'audio/tabla1mesiento/Asustado.mp3',
+    'audio/tabla1mesiento/Bien.mp3',
+    'audio/tabla1mesiento/Cansado.mp3',
+    'audio/tabla1mesiento/Contento.mp3',
+    'audio/tabla1mesiento/Enfadado.mp3',
+    'audio/tabla1mesiento/Enfermo.mp3',
+    'audio/tabla1mesiento/Mal.mp3',
+    'audio/tabla1mesiento/Triste.mp3',
 
-  
 
-
-
+    'js/app.js',
     'js/sw-utils.js'
 
 

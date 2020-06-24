@@ -1,14 +1,14 @@
 //a
 
 var url = window.location.href;
-var swLocation = '/meraki/sw.js';
+var swLocation = '/meraki/serviceworker.js';
 
 
 if ( navigator.serviceWorker ) {
 
 
     if ( url.includes('localhost') ) {
-        swLocation = '/sw.js';
+        swLocation = '/serviceworker.js';
     }
 
 

@@ -12,7 +12,7 @@ if ( navigator.serviceWorker ) {
     }
 
 
-    navigator.serviceWorker.register( swLocation , {scope: '/'});
+    navigator.serviceWorker.register( swLocation );
 }
 
 
